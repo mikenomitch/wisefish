@@ -23,10 +23,10 @@ defmodule Platemail.ReleaseTasks do
   end
 
   def seed(_argv) do
-    start_services()
-    run_migrations()
-    run_seeds()
-    stop_services()
+    # start_services()
+    # run_migrations()
+    # run_seeds()
+    # stop_services()
   end
 
   defp start_services do

@@ -43,9 +43,7 @@ When you load the app in the browser and inspect the `<input>`, you will see its
 ```html
 <div>
   <small>You are running this application in <b>development</b> mode.</small>
-  <form>
-    <input type="hidden" value="abcdef" />
-  </form>
+  <form><input type="hidden" value="abcdef" /></form>
 </div>
 ```
 
@@ -633,4 +631,4 @@ The choice of your server software isn’t important either. Since Create React 
 
 The `build` folder with static assets is the only output produced by Create React App.
 
-However this is not quite enough if you use client-side routing. Read the next section if you want to support URLs like `/todos/42` in your single-page app.
+However this is not quite enough if you use client-side routing. Read the next section if you want to support URLs like `/items/42` in your single-page app.

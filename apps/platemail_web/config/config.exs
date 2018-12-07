@@ -13,8 +13,7 @@ config :platemail_web,
 # Configures the endpoint
 config :platemail_web, PlatemailWeb.Endpoint,
   url: [host: {:system, "HOST"}],
-  # TODO: use `mix guardian.gen.secret` to make new one and set to env vars
-  secret_key_base: "${SECRET_KEY_BASE}",
+  secret_key_base: System.get_env("SECRET_KEY_BASE"),
   render_errors: [view: PlatemailWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: PlatemailWeb.PubSub, adapter: Phoenix.PubSub.PG2]
 

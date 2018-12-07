@@ -33,7 +33,7 @@ Backend features:
 - Basic auth via JWTs
 - Swagger API docs
 - Auth credential confirmation/password resets/magic login
-- Event broadcasting via Channels (TODO)
+- Event broadcasting via Channels
 - TSL/HTTPS support (TODO)
 - A few simple example tests (TODO)
 

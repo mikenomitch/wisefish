@@ -6,8 +6,7 @@ config :platemail,
 
 config :platemail, Platemail.Accounts.Authentication,
   issuer: "platemail",
-  # TODO: use `mix guardian.gen.secret` to make new one and set to env vars
-  secret_key: "rjJkwUP1ADt7sWEivlVkk+y3P3dWXuS0cC5J6MP/wAvHuEvSuJyOHA9yGyGypQ9q"
+  secret_key: System.get_env("SECRET_KEY_BASE")
 
 config :ueberauth, Ueberauth,
   providers: [
