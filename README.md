@@ -1,6 +1,6 @@
-# Platemail
+# Wisefish
 
-Platemail is meant to provide a base boilerplate for quickly building out webapps.
+Wisefish is meant to provide a base boilerplate for quickly building out webapps.
 
 ### Backend:
 
@@ -82,7 +82,7 @@ Local Dev Dependencies:
 `mix deps.get`
 `mix ecto.create`
 `mix ecto.migrate`
-`cd apps/platemail_web/lib/platemail_web/app && npm install`
+`cd apps/wisefish_web/lib/wisefish_web/app && npm install`
 
 ## Running Locally
 

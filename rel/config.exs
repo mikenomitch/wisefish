@@ -56,14 +56,14 @@ end
 # when running `mix release`, the first release in the file
 # will be used by default
 
-release :platemail do
+release :wisefish do
   set(version: "0.2.0")
 
   set(
     applications: [
       :runtime_tools,
-      platemail: :permanent,
-      platemail_web: :permanent
+      wisefish: :permanent,
+      wisefish_web: :permanent
     ]
   )
 end

@@ -34,10 +34,10 @@ RUN apk add --update bash openssl
 RUN mkdir /app && chown -R nobody: /app
 WORKDIR /app
 
-COPY --from=build /app/_build/prod/rel/platemail ./
+COPY --from=build /app/_build/prod/rel/wisefish ./
 
 ENV REPLACE_OS_VARS=true
 ENV HTTP_PORT=4000 BEAM_PORT=14000 ERL_EPMD_PORT=24000
 EXPOSE $HTTP_PORT $BEAM_PORT $ERL_EPMD_PORT
 
-ENTRYPOINT ["/app/bin/platemail"]
+ENTRYPOINT ["/app/bin/wisefish"]

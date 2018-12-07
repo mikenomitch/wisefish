@@ -1,4 +1,4 @@
-# Platemail Frontend
+# Wisefish Frontend
 
 See main README for a description of what comprises the frontend.
 

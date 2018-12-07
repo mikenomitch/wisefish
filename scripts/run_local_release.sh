@@ -10,4 +10,4 @@ echo === BUILDING RELEASE ===
 mix release --env=prod
 
 echo === RUNNING RELEASE ===
-_build/prod/rel/platemail/bin/platemail foreground
+_build/prod/rel/wisefish/bin/wisefish foreground

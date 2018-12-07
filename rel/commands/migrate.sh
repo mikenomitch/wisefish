@@ -1,3 +1,3 @@
 #!/bin/sh
 
-release_ctl eval --mfa "Platemail.ReleaseTasks.migrate/1" --argv -- "$@"
+release_ctl eval --mfa "Wisefish.ReleaseTasks.migrate/1" --argv -- "$@"

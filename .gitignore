@@ -13,19 +13,19 @@ erl_crash.dump
 /frontend/yarn-error.log*
 /frontend/build
 
-/apps/platemail_web/priv/static/webapp
-/apps/platemail_web/priv/static/css
-/apps/platemail_web/priv/static/css
+/apps/wisefish_web/priv/static/webapp
+/apps/wisefish_web/priv/static/css
+/apps/wisefish_web/priv/static/css
 
 # App artifacts
-/apps/platemail/_build
-/apps/platemail/db
-/apps/platemail/deps
-/apps/platemail/*.ez
-/apps/platemail/.elixir_ls
+/apps/wisefish/_build
+/apps/wisefish/db
+/apps/wisefish/deps
+/apps/wisefish/*.ez
+/apps/wisefish/.elixir_ls
 
 # Generated on crash by the VM
-/apps/platemail/erl_crash.dump
+/apps/wisefish/erl_crash.dump
 
 # Files matching config/*.secret.exs pattern contain sensitive
 # data and you should not commit them into version control.
@@ -33,31 +33,31 @@ erl_crash.dump
 # Alternatively, you may comment the line below and commit the
 # secrets files as long as you replace their contents by environment
 # variables.
-/apps/platemail/config/*.secret.exs
+/apps/wisefish/config/*.secret.exs
 
 # testing
-/apps/platemail/priv/app/coverage
+/apps/wisefish/priv/app/coverage
 
 # production
-/apps/platemail/priv/app/build
+/apps/wisefish/priv/app/build
 
 # misc
-/apps/platemail/priv/app/.DS_Store
-/apps/platemail/priv/app/.env.local
-/apps/platemail/priv/app/.env.development.local
-/apps/platemail/priv/app/.env.test.local
-/apps/platemail/priv/app/.env.production.local
+/apps/wisefish/priv/app/.DS_Store
+/apps/wisefish/priv/app/.env.local
+/apps/wisefish/priv/app/.env.development.local
+/apps/wisefish/priv/app/.env.test.local
+/apps/wisefish/priv/app/.env.production.local
 
 /frontend/node_modules
 /frontend/npm-debug.log*
 /frontend/yarn-debug.log*
 /frontend/yarn-error.log*
 
-/apps/platemail_web/priv/static/static
-/apps/platemail_web/priv/static/static/*
-/apps/platemail_web/priv/static/static/*.js
-/apps/platemail_web/priv/static/static/*.css
-/apps/platemail_web/priv/static/swagger.json
+/apps/wisefish_web/priv/static/static
+/apps/wisefish_web/priv/static/static/*
+/apps/wisefish_web/priv/static/static/*.js
+/apps/wisefish_web/priv/static/static/*.css
+/apps/wisefish_web/priv/static/swagger.json
 
 # Secrets
-/k8s/platemail-secrets.yaml
+/k8s/wisefish-secrets.yaml

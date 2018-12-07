@@ -15,7 +15,7 @@ config :logger, :console,
   metadata: [:user_id]
 
 # Configures Email
-config :platemail, Platemail.Mailer,
+config :wisefish, Wisefish.Mailer,
   adapter: Bamboo.SendGridAdapter,
   api_key: System.get_env("EMAIL_KEY")
 
